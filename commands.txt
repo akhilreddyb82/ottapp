@@ -1,1 +1,6 @@
 git status
+gt add .
+git status 
+git commit -m 'added index.html'
+git push
+-----
