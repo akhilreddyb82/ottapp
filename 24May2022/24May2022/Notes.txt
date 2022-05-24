@@ -1,0 +1,121 @@
+HTML Attributes:
+
+An HTML Attribute enhances the capability of an html element.
+
+
+<html>
+    <head>
+
+    </head>
+
+     <body>
+
+         <input type="password" placeholder="password here">
+
+     </body>
+</html>
+
+From above code, input element has got its Attributes such as type and placeholder.
+
+
+HTML Attributes can be categorized in to 3 types.
+
+1. specific Attributes ( specific to the element)
+2. global attributes ( common attributes for all the html elements )
+3. event attributes
+
+
+specific Attributes (specific to the element):
+
+
+<html>
+    <head>
+
+    </head>
+
+     <body>
+
+         <a href="https://www.facebook.com">Facebook</a>
+
+     </body>
+</html>
+
+href is the specific attribute here.
+
+
+form: 
+
+the specific attributes of a form are , 
+
+1. action
+
+2. method 
+
+3. autocomplete etc...
+
+
+
+global attributes:
+
+the global attributes can be applied or used with any html element.
+
+examples are  style, id, class etc..
+
+https://www.w3schools.com/tags/ref_standardattributes.asp
+
+
+<html>
+    <head>
+
+    </head>
+
+     <body>
+         <h1 style="color:red;text-align: center">This is some heading!!</h1>
+     </body>
+</html>
+
+Event attributes:
+
+
+Any action is called as an event. 
+
+Clicking on a button, hovering the mouse on an image, filling the data in a text field etc are some 
+of the examples of actions(events).
+
+https://www.w3schools.com/tags/ref_eventattributes.asp 
+
+
+<html>
+    <head>
+
+    </head>
+
+     <body>
+         <h1 id="message" onclick="changeText()">Click Here</h1>
+
+         <input type="text" style="color:green" value="msdcmjbsdc,sldkv">
+
+         <script>
+         
+         
+            function changeText(){
+
+                document.getElementById("message").innerHTML="Good Morning!!";
+            }
+         
+         </script>
+     </body>
+</html>
+
+
+From the above,  onclick is a event attribute ,  style is global attribute and value is  specific 
+attribute.
+
+
+
+HTML Editors:
+
+Sublime Text, VSCode, NotePad++...
+
+https://code.visualstudio.com/
+
